@@ -1,0 +1,1 @@
+## 6\. Event Dispatcher {#6-event-dispatcher}
