@@ -44,7 +44,6 @@
    * [5.14 Ручной выбор какой сервис будет использоваться](5_service_container_dependency_injection/514_ruchnoi_vibor_kakoi_servis_budet_ispolzovatsya.md)
    * [5.15 Полностью динамическое определение сервиса](5_service_container_dependency_injection/515_polnostyu_dinamicheskoe_opredelenie_servisa.md)
    * [5.16 Псевдонимы сервисов](5_service_container_dependency_injection/516_psevdonimi_servisov.md)
-   * [](5_service_container_dependency_injection/.md)
    * [5.17 Подключение файлов](5_service_container_dependency_injection/517_podklyuchenie_failov.md)
    * [5.18 Теги сервисов](5_service_container_dependency_injection/518_tegi_servisov.md)
 * [6. Event Dispatcher](6_event_dispatcher/README.md)
