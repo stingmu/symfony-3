@@ -2,28 +2,31 @@
 
 *   One (category) to many (products)
 
+```
 use Doctrine\Common\Collections\ArrayCollection;
 
 class Category {
 
-     /**
-
-     * @ORM\OneToMany(targetEntity="Product", mappedBy="category")
-
-     */
-
-     protected $products;
-
-     public function __construct() {
-
-         $this->products = new ArrayCollection();
-
-     }
-
+    /**
+    
+    * @ORM\OneToMany(targetEntity="Product", mappedBy="category")
+    
+    */
+    
+    protected $products;
+    
+    public function __construct() {
+    
+     $this->products = new ArrayCollection();
+    
+    }
 }
+
+```
 
 *   Many (products) to one (category)
 
+```
 class Product
 
 {
@@ -39,9 +42,11 @@ class Product
      protected $category;
 
 }
+```
 
 *   Many (Products) to many (categories)
 
+```
 class Product {
 
  /**
@@ -67,11 +72,12 @@ class Category {
      private $products;
 
 }
+```
 
 После указания зависимостей необходимо, чтобы доктрина сгенерировала новый аксессоры:
 
-php app/console doctrine:generate:entities Acme
+```php app/console doctrine:generate:entities Acme```
 
 А также, чтобы добавила необходимые поля и ключи в таблицу БД:
 
-php app/console doctrine:schema:update --force
+```php app/console doctrine:schema:update --force```
