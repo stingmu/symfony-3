@@ -3,7 +3,7 @@
 * [Основы Symfony 3 и не только](README.md)
 * [Основы Symfony 3](osnovi_symfony_3/readmemd.md)
    * [Отдача ответа](osnovi_symfony_3/otdachaotveta_md.md)
-   * [Структура директорий приложения](osnovi_symfony_3/struktura_direktorii_prilozheniya.md)
+   * [Структура директорий приложения](osnovi_symfony_3/strukturadirektoriiprilozheniya__md.md)
    * [Структура директорий бандла](osnovi_symfony_3/struktura_direktorii_bandla.md)
    * [1.4 Основные задачи контроллера](1_osnovi_symfony_2/14_osnovnie_zadachi_kontrollera.md)
    * [1.5 Управление сессией](1_osnovi_symfony_2/15_upravlenie_sessiei.md)
