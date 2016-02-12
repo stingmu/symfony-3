@@ -8,23 +8,27 @@ assetic:
 
 Можно удалить строку bundles и подключить Assetic ко всем бандлам.
 
+
+```
 {% stylesheets
 
     '@BloggerBlogBundle/Resources/public/css/style.css'
-
+    
     '@BloggerBlogBundle/Resources/public/css/blog.css'
-
+    
     debug=false
-
+    
     output='css/blogger.css'
-
+    
     filter='?yui_css'
 
 %}
 
-    &lt;link href="{{ asset_url }}" rel="stylesheet" media="screen" /&gt;
+    <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
 
 {% endstylesheets %}
+```
+
 
 Параметры:
 
@@ -52,18 +56,20 @@ assetic:
 
 Полный список фильтров Assetic -[ ](https://www.google.com/url?q=https://github.com/kriswallsmith/assetic/blob/master/README.md&sa=D&ust=1455315226729000&usg=AFQjCNFQwpAbvDNmG0LnI2nRGxRByJeqYw)[https://github.com/kriswallsmith/assetic/blob/master/README.md](https://www.google.com/url?q=https://github.com/kriswallsmith/assetic/blob/master/README.md&sa=D&ust=1455315226729000&usg=AFQjCNFQwpAbvDNmG0LnI2nRGxRByJeqYw).
 
+```
 {% javascripts
 
     'https://code.jquery.com/jquery-1.11.1.min.js'
-
+    
     '@AcmeBlogBundle/Resources/public/js/scripts.js'
-
+    
     output='js/scripts.js'
-
+    
     filter='yui_js'
 
- %}
+%}
 
-    &lt;script src="{{ asset_url }}"&gt;&lt;/script&gt;
+    <script src="{{ asset_url }}"></script>
 
 {% endjavascripts %}
+```
