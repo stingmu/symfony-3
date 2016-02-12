@@ -1,5 +1,6 @@
 ### 4.4 Doctrine's Query Builder {#4-4-doctrine-s-query-builder}
 
+```
 $repository = $this->getDoctrine()->getRepository('...');
 
 $query = $repository->createQueryBuilder('p')
@@ -13,3 +14,4 @@ $query = $repository->createQueryBuilder('p')
 ->getQuery();
 
 $products = $query->getResult(); // getSingleResult(); getOneOrNullResult();
+```
