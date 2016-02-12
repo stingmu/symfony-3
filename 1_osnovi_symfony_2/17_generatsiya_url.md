@@ -2,12 +2,12 @@
 
 *   в контроллере
 
-$url = $this->generateUrl( 'blog_show', array('slug'=>'my-bkig-post') );
+```$url = $this->generateUrl( 'blog_show', array('slug'=>'my-bkig-post') );```
 
 *   в js файлах
 
-var url = Routing.generate( 'blog_show',{"slug":'my-blog-post'} );
+```var url = Routing.generate( 'blog_show',{"slug":'my-blog-post'} );```
 
 *   в шаблонах TWIG
 
-&lt;a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}"&gt;Read post&lt;/a&gt;
+```<a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}">Read post</a>```
