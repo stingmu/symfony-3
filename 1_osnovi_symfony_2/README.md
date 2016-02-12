@@ -1,1 +1,1 @@
-##Основы Symfony 3 {#1-symfony-2}
+##Основы Symfony 3
