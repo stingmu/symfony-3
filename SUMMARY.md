@@ -9,6 +9,7 @@
    * [1.6 Маршрутизация](1_osnovi_symfony_2/16_marshrutizatsiya.md)
    * [1.7 Генерация URL](1_osnovi_symfony_2/17_generatsiya_url.md)
    * [1.8 Применение Assetic для CSS и JS](1_osnovi_symfony_2/18_primenenie_assetic_dlya_css_i_js.md)
+   * Структура директорий приложения
 * [2. Основы TWIG](2_osnovi_twig/README.md)
    * [2.1 Три вида тегов в TWIG:](2_osnovi_twig/21_tri_vida_tegov_v_twig.md)
    * [2.3 Шаблоны,блоки, фильтры и функции](2_osnovi_twig/23_shabloni,bloki,_filtri_i_funktsii.md)
