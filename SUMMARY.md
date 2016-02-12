@@ -53,7 +53,6 @@
    * [6.4 Подключения пользовательских слушателей](6_event_dispatcher/64_podklyucheniya_polzovatelskih_slushatelei.md)
    * [6.5 Таблица событий Symfony](6_event_dispatcher/65_tablitsa_sobitii_symfony.md)
 * [7. Принцип работы компонента HttpKernel](7_printsip_raboti_komponenta_httpkernel/README.md)
-   * [](7_printsip_raboti_komponenta_httpkernel/.md)
    * [7.1 Вызов фронт-контроллера](7_printsip_raboti_komponenta_httpkernel/71_vizov_front-kontrollera.md)
    * [7.2 Метод handle() класса Kernel](7_printsip_raboti_komponenta_httpkernel/72_metod_handle_klassa_kernel.md)
    * [7.3 Метод handle() класса HttpKernel](7_printsip_raboti_komponenta_httpkernel/73_metod_handle_klassa_httpkernel.md)
