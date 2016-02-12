@@ -2,6 +2,7 @@
 
 Чтобы файл с классами репозиториев не лежал в одной директории со стандартными классами сеттеров и геттеров сущностей, необходимо указать перед объявлением соответствующего класса сущности в аннотациях следующее:
 
+```
 /**
 
 * @ORM\Entity(repositoryClass="Acme\StoreBundle\Entity\Repository\ProductRepository")
@@ -39,11 +40,12 @@ class ProductRepository extends EntityRepository {
     }
 
 }
+```
 
 Теперь данный метод доступен в контроллерах:
 
-$products = $em->getRepository('AcmeStoreBundle:Product')->findAllOrderedByName();
+```$products = $em->getRepository('AcmeStoreBundle:Product')->findAllOrderedByName();```
 
 Также в классах репозитория имеется связка с UnitOfWork.
 
-$this->matching(Criteria ::create()->where());
+```$this->matching(Criteria ::create()->where());```
