@@ -2,12 +2,12 @@
 
 *   Простейшая отдача ответа в контроллере:
 
-return new Response('&lt;html&gt;&lt;body&gt;...&lt;/body&gt;&lt;/html&gt;');
+```return new Response('<html><body>...</body></html>');```
 
 *   Отдача ответа с использованием шаблона:
 
-return $this->render( 'AcmeHelloBundle:Hello:index.html.twig',array( 'name'=>$name) );
+```return $this->render( 'AcmeHelloBundle:Hello:index.html.twig',array( 'name'=>$name) );```
 
-Метода render() создаёт объект Response с полученными параметрами, подключая шаблон.
+Метод **render()** создаёт объект Response с полученными параметрами, подключая шаблон.
 
-Название шаблона: BundleName:ControllerName:TemplateName.
+Название шаблона: **BundleName:ControllerName:TemplateName**.
