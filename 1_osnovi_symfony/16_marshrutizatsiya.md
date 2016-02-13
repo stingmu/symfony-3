@@ -1,5 +1,7 @@
 ## 1.6 Маршрутизация
 
+### Указание маршрутов в YAML
+
 Настройки маршрутизации указываются в файле **/app/config/routing.yml**. Пример роутинга для блога:
 ```
 article_show:
@@ -21,6 +23,8 @@ acme_hello:
     resource: "@AcmeBundle/Resources/config/routing.yml"
 ```
 
+### Указание маршрута в PHP аннотациях 
+
 Также имеется возможность указывать маршруты в аннотациях к контроллерам:
 
 ```
@@ -32,3 +36,18 @@ public function indexAction($name)
     return new Response('<html><body>Hello '.$name.'!</body></html>');
 }
 ````
+
+### Просмотр и отладки маршрутов в консоли
+
+* Просмотр всех маршрутов приложения:
+
+`php bin/console debug:router`
+
+* Просмотр информации о маршруте по его названию:
+
+`php bin/console debug:router homepage`
+
+* Определение маршрута по URL:
+
+`php bin/console router:match /blog/my-latest-post`
+
