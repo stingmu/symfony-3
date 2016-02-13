@@ -11,7 +11,7 @@ $arguments = $this->resolver->getArguments($request, $controller);
 
 1.  Если существует параметр запроса Request, совпадающий по названию с аргументом контроллера, тогда используется его значение. Например, если первый аргумент в контроллере **$year** и имеется параметр запроса - **year.public** 
 `function indexAction($year,$month,$day) { ... }`
-2.  Если у аргумента в контроллере указан класс Request, тогда в качестве значения передаётся объект Request.public
+2.  Если у аргумента в контроллере указан класс Request, тогда в качестве значения передаётся объект **Request.public**
 `function indexAction(Request $request) { ... }`
 
 Также можно совмещать оба варианта в одном контроллере:         public function indexAction(Request $request, $year)
