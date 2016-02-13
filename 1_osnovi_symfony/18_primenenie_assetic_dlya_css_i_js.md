@@ -28,10 +28,12 @@ assetic:
 
 Для работы фильтра минимизации CSS, используя YUI компрессор надо обновить app/config/config.yml:
 
+```
 assetic:
     filters:
     yui_css:
     jar: %kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar
+```
 
 Фильтры в библиотеке ядра:
 
