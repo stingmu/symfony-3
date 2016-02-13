@@ -2,7 +2,7 @@
 
 * Генерирование нового бандла:
 
-```php app/console generate:bundle --namespace=Acme/TestBundle --format=[yml,xml,php,annotation]`
+`php app/console generate:bundle --namespace=Acme/TestBundle --format=[yml,xml,php,annotation]`
 
 * Генерирование новой сущности:php app/console doctrine:generate:entity
 * Генерирование сеттеров и геттеров на основе yml, xml, php и аннотаций для сущности:
