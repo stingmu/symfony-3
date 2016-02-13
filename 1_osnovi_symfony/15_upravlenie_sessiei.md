@@ -1,6 +1,6 @@
 ## 1.5 Управление сессией {#1-5}
 
-```$session = $request->getSession();```
+`$session = $request->getSession();`
 
 *   Установка и получение атрибутов сессий
 
@@ -23,8 +23,6 @@ foreach ($session->getFlashBag()->get('notice',array()) as $msg) {
 
 ```
 {% for flashMessage in app.session.flashbag.get('notice') %}
-
 <div>{{ flashMessage }}</div>
-
 {% endfor %}
 ```
