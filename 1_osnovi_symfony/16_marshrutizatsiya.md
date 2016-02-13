@@ -9,6 +9,7 @@ article_show:
     requirements:
         lang: en|fr|ru
         _format: html|rss
+        _locale: ru
         year: \d+
 ```
 
