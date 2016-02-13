@@ -1,8 +1,8 @@
-### 9.3 Выполнение подзапросов {#9-3}
+## 9.3 Выполнение подзапросов
 
 Для выполнения подзапроса можно использовать метод HttpKernel::handle, изменив в нём второй аргумент:
 
-$response = $kernel->handle($request, HttpKernelInterface::SUB_REQUEST);
+'$response = $kernel->handle($request, HttpKernelInterface::SUB_REQUEST);'
 
 В результате создаётся другой полный цикл запрос-ответ, в котором новый запрос Request трасформируется в ответ Response. Единственная разница в том, что некоторые слушатели реагируют только на MASTER_REQUEST.
 
