@@ -14,4 +14,5 @@ $arguments = $this->resolver->getArguments($request, $controller);
 2.  Если у аргумента в контроллере указан класс Request, тогда в качестве значения передаётся объект **Request.public**
 `function indexAction(Request $request) { ... }`
 
-Также можно совмещать оба варианта в одном контроллере:         public function indexAction(Request $request, $year)
+Также можно совмещать оба варианта в одном контроллере: 
+`public function indexAction(Request $request, $year) { ... }`
