@@ -4,7 +4,7 @@
 * [1. Основы Symfony 3](1_osnovi_symfony/readme.md)
    * [1.1 Отдача ответа](1_osnovi_symfony/otdacha_otveta.md)
    * [1.2 Структура директорий приложения](1_osnovi_symfony/struktura_direktorii_prilozheniya.md)
-   * [1.3 Структура директорий бандла](1_osnovi_symfony/struktura_direktorii_bandla.md)
+   * [1.3 Структура директорий бандла](1_osnovi_symfony/13_struktura_direktorii_bandla.md)
    * [1.4 Основные задачи контроллера](1_osnovi_symfony/osnovnie_zadachi_kontrollera.md)
    * [1.5 Управление сессией](1_osnovi_symfony/15_upravlenie_sessiei.md)
    * [1.6 Маршрутизация](1_osnovi_symfony_2/16_marshrutizatsiya.md)
