@@ -1,13 +1,11 @@
 ### 1.8 Применение Assetic для CSS и JS {#1-8-assetic-css-js}
 
 Для подключения Assetic к бандлу, необходимо изменить файл App/config/config.yml:
-
+```
 assetic:
-
     bundles: [BloggerBlogBundle]
-
+```
 Можно удалить строку bundles и подключить Assetic ко всем бандлам.
-
 
 ```
 {% stylesheets
