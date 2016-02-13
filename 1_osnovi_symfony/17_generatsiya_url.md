@@ -7,7 +7,7 @@
 * с помощью сервиса 'router'
 
 `$url = $thi->get('router')->match('/blog/my-blog-post');`
-`$url = $thi->get('router')->generate('blog_show');`
+`$url = $thi->get('router')->generate('blog_show',['name'=>$name]);`
 
 *   в js файлах
 
