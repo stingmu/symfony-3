@@ -30,7 +30,3 @@ public function indexAction($name)
     return new Response('<html><body>Hello '.$name.'!</body></html>');
 }
 ````
-
-Схема работы маршрутизации:
-
-![](request-flow.png)
