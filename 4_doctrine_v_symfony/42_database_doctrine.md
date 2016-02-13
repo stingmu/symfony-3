@@ -1,4 +1,4 @@
-### 4.2 DataBase (Doctrine) {#4-2-database-doctrine}
+## 4.2 DataBase (Doctrine)
 
 *   **SELECT** - получение данных
 
