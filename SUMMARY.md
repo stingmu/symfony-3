@@ -13,7 +13,7 @@
 * [2. Основы TWIG](2_osnovi_twig/README.md)
    * [2.1 Три вида тегов в TWIG:](2_osnovi_twig/21_tri_vida_tegov_v_twig.md)
    * [2.2 Экранирование переменных и текста:](2_osnovi_twig/22_ekranirovanie_peremennih_i_teksta.md)
-   * [2.3 Шаблоны,блоки, фильтры и функции](2_osnovi_twig/23_shabloni,bloki,_filtri_i_funktsii.md)
+   * [2.3 Шаблоны, блоки, фильтры и функции](2_osnovi_twig/23_shabloni,bloki,_filtri_i_funktsii.md)
    * [2.4 Макросы TWIG](2_osnovi_twig/24_makrosi_twig.md)
    * [2.5 Глобальные переменные TWIG](2_osnovi_twig/25_globalnie_peremennie_twig.md)
    * [2.6 Добавление своих глобальных перменных](2_osnovi_twig/26_dobavlenie_svoih_globalnih_permennih.md)
