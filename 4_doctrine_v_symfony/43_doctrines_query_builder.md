@@ -1,4 +1,4 @@
-### 4.4 Doctrine's Query Builder {#4-4-doctrine-s-query-builder}
+## 4.3 Doctrine's Query Builder {#4-4-doctrine-s-query-builder}
 
 ```
 $repository = $this->getDoctrine()->getRepository('...');
