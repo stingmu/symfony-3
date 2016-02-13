@@ -2,7 +2,17 @@
 
 *   Простейшая отдача ответа в контроллере:
 
-`return new Response('<html><body>...</body></html>');`
+```
+use Symfony\Component\HttpFoundation\Response;
+
+class HelloController
+{
+    public function indexAction($name)
+    {
+        return new Response('<html><body>Hello '.$name.'!</body></html>');
+    }
+}
+```
 
 *   Отдача ответа с использованием шаблона:
 
