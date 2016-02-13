@@ -5,55 +5,48 @@
 Тут также имеется 2 способа внедрения зависимостей:
 
 1.  Можно использовать необязательный аргумент конструктора, для которого задать значение по-умолчанию null:
-
+```
 ...
-
  public function __construct(
-
      LoggerInterface $logger = null
-
  ) {
-
      $this->logger = $logger;
-
  }
-
 ...
-
+```
 Тогда при определении сервиса необходимо пометить необязательные завимисти знаком вопроса:
-
-services:   some_service:        class:  AcmeBundle\Service\SomeService
-
+```
+services:   
+    some_service:
+        class:  AcmeBundle\Service\SomeService
         arguments: ['@?logger’]
-
+```
 Для проверки внедрена зависимость или нет можно использовать конструкцию:
 
-if ($this->logger instanceof LoggerInterface) {
+    ```
+    if ($this->logger instanceof LoggerInterface) {
+    ...
+    }
+    ```
 
-...
+2. Второй способ - использовать необязательные вызовы сеттеров.
 
-}
+    ```
+    public function setLogger(LoggerInterface $logger = null)
+    ...
+    public function setLogger(LoggerInterface $logger = null)
+     {
+         $this->logger = $logger;
+     }
+    ...
+    ```
 
-2) Второй способ - использовать необязательные вызовы сеттеров.
+    А при определении сервиса необходимо добавить вызов setLogger(). Когда сервис не доступен, можно указать, что он должен быть игнорирован, то есть зависимость необязательная:
 
-public function setLogger(LoggerInterface $logger = null)
-
-...
-
-public function setLogger(LoggerInterface $logger = null)
-
- {
-
-     $this->logger = $logger;
-
- }
-
-...
-
-А при определении сервиса необходимо добавить вызов setLogger(). Когда сервис не доступен, можно указать, что он должен быть игнорирован, то есть зависимость необязательная:
-
-services:   some_service:        class:  AcmeBundle\Service\SomeService
-
-        calls:
-
-- [setLogger, ['@?logger’]]
+    ```
+    services:   
+        some_service:        
+            class:  AcmeBundle\Service\SomeService
+            calls:
+                - [setLogger, ['@?logger’]]
+    ```
