@@ -17,6 +17,7 @@
 *   Создание миграций и их внедрение:
 
 `php app/console doctrine:migrtations:diff`
+
 `php app/console doctrine:migrations:migrate`
 
 *   Генерирование файла контроллера:
