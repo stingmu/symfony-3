@@ -1,7 +1,7 @@
 # Summary
 
 * [Основы Symfony 3 и не только](README.md)
-* [1. Основы Symfony 3](osnovi_symfony_3/readmemd.md)
+* [Основы Symfony 3](osnovi_symfony_3/readmemd.md)
     * [Отдача ответа](osnovi_symfony_3/otdacha_otveta.md)
     * [Структура директорий приложения](osnovi_symfony_3/struktura_direktorii_prilozheniya.md)
     * [Структура директорий бандла](osnovi_symfony_3/struktura_direktorii_bandla.md)
