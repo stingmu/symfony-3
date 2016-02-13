@@ -24,3 +24,6 @@ class HelloController
 Название шаблона: **BundleName:ControllerName:TemplateName**.
 
 Для того, чтобы использовать метод **render()** контроллер должен наследовать базовый класс **Symfony\Bundle\FrameworkBundle\Controller\Controller**.
+
+
+### Объект Response
