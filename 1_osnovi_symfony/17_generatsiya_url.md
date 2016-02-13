@@ -1,13 +1,13 @@
-### 1.7 Генерация URL {#1-7-url}
+## 1.7 Генерация URL
 
 *   в контроллере
 
-```$url = $this->generateUrl( 'blog_show', array('slug'=>'my-bkig-post') );```
+`$url = $this->generateUrl( 'blog_show', array('slug'=>'my-bkig-post') );`
 
 *   в js файлах
 
-```var url = Routing.generate( 'blog_show',{"slug":'my-blog-post'} );```
+`var url = Routing.generate( 'blog_show',{"slug":'my-blog-post'} );`
 
 *   в шаблонах TWIG
 
-```<a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}">Read post</a>```
+`<a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}">Read post</a>`
