@@ -1,3 +1,3 @@
-## 7.6 Схема работы компонента HttpKernel
+## 7.6 Схема работы компонента HttpKernel 
 
 ![](images/image01.png)
