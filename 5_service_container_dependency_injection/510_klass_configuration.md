@@ -35,6 +35,6 @@ $rootNode
         ->end()
         ->scalarNode('default_connection')
             ->defaultValue('default')
-    ->end()
+        ->end()
 ->end()
 ```
