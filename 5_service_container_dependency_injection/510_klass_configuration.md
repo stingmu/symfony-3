@@ -41,3 +41,4 @@ $rootNode
 
 Подробноее - [http://symfony.com/doc/current/components/config/definition.html](http://symfony.com/doc/current/components/config/definition.html)
 
+Обычно объект класс Configuration используется внутри класса **BundlenameExtension**, которыйрасширяет  базовый класс **Extension**, и располагается в файле **/src/AcmeBundle/DependencyInjection/AcmeExtension.php**. Его назначение - получение массивов конфигураций, которые также получает ядро Symfony из соответствующих конфигурационных YAML файлов.
