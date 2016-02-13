@@ -72,4 +72,5 @@
    * [9.1 Что такое подзапросы](9_podzaprosi_sub-requests/91_chto_takoe_podzaprosi.md)
    * [9.2 Где используются подзапросы](9_podzaprosi_sub-requests/92_gde_ispolzuyutsya_podzaprosi.md)
    * [9.3 Выполнение подзапросов](9_podzaprosi_sub-requests/93_vipolnenie_podzaprosov.md)
+* 10. Тестирование
 
