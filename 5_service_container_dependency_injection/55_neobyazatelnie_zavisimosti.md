@@ -32,7 +32,6 @@ services:
 2. Второй способ - использовать необязательные вызовы сеттеров.
 
     ```
-    public function setLogger(LoggerInterface $logger = null)
     ...
     public function setLogger(LoggerInterface $logger = null)
      {
