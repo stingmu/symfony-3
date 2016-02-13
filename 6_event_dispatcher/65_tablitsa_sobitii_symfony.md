@@ -1,4 +1,4 @@
-### 6.5 Таблица событий Symfony {#6-5-symfony}
+## 6.5 Таблица событий Symfony
 
 | **Name** | **KernelEvents Constant** | **Argument passed to the listener** |
 | --- | --- | --- |
