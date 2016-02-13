@@ -11,9 +11,7 @@
 
 ```
 {% if app.request.attributes.get('_route') == "route_name" %}
-
     ...
-
 {% endif %}
 ```
 
