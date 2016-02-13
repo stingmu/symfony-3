@@ -21,7 +21,7 @@
 * [3. Основные команды Symfony](3_osnovnie_komandi_symfony/readme.md)
 * [4. Doctrine в Symfony](4_doctrine_v_symfony/README.md)
    * [4.1 EntityManager (Unit Of Work)](4_doctrine_v_symfony/41_entitymanager_unit_of_work.md)
-   * [4.2 Основные операции (SELECT, INSERT, DELETE)](4_doctrine_v_symfony/4_2osnovnye_operacii.md)
+   * [4.2 Основные операции (SELECT, INSERT, DELETE)](4_doctrine_v_symfony/42_osnovnye_operacii.md)
    * [4.3 Doctrine's Query Builder](4_doctrine_v_symfony/43_doctrines_query_builder.md)
    * [4.4 Doctrine Query Language (DQL)](4_doctrine_v_symfony/44_doctrine_query_language_dql.md)
    * [4.5 Изменение местоположения классов репозитория](4_doctrine_v_symfony/45_izmenenie_mestopolozheniya_klassov_repozitoriya.md)
