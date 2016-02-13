@@ -31,3 +31,8 @@ public function indexAction(Request $request)
     // ...
 }
 ```
+* Выдача исключений:
+
+`throw new \Exception('Something went wrong!');`
+
+
