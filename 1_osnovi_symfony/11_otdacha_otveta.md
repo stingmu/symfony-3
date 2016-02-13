@@ -14,7 +14,6 @@ class HelloController
 }
 ```
 
-<br />
 *   Отдача ответа с использованием шаблона:
 
 `return $this->render( 'AcmeHelloBundle:Hello:index.html.twig',array( 'name'=>$name) );`
