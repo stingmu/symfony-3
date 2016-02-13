@@ -47,4 +47,3 @@ $response->headers->set('Content-Type', 'application/json');
 * StreamedResponse
 
 Подробнее - [http://symfony.com/doc/current/components/http_foundation/introduction.html#component-http-foundation-response](http://symfony.com/doc/current/components/http_foundation/introduction.html#component-http-foundation-response)
-
