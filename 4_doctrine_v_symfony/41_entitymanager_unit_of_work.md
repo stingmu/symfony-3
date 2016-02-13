@@ -1,4 +1,4 @@
-## 4.1 EntityManager (Unit Of Work) {#4-1-entitymanager-unit-of-work}
+## 4.1 EntityManager (Unit Of Work)
 
 **Unit Of Work** - класс, который обслуживает набор объектов и управляет записью изменений в БД.
 
