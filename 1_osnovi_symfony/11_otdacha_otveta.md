@@ -8,6 +8,6 @@
 
 `return $this->render( 'AcmeHelloBundle:Hello:index.html.twig',array( 'name'=>$name) );`
 
-Метод **render()** создаёт объект Response с полученными параметрами, подключая шаблон.
+Метод **render()** создаёт объект **Response** с полученными параметрами, подключая шаблон.
 
 Название шаблона: **BundleName:ControllerName:TemplateName**.
