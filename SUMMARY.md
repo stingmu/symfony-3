@@ -17,7 +17,7 @@
    * [2.4 Макросы TWIG](2_osnovi_twig/24_makrosi_twig.md)
    * [2.5 Глобальные переменные TWIG](2_osnovi_twig/25_globalnie_peremennie_twig.md)
    * [2.6 Добавление своих глобальных перменных](2_osnovi_twig/26_dobavlenie_svoih_globalnih_permennih.md)
-* [3. Основные команды Symfony](3_osnovnie_komandi_symfony/readme.md)
+* [3. Основные команды Symfony](3_osnovnie_komandi_symfony/readme.md/readmemd.md)
 * [4. Управление данными в Symfony 2](4_upravlenie_dannimi_v_symfony_2/README.md)
    * [4.1 EntityManager (Unit Of Work)](4_upravlenie_dannimi_v_symfony_2/41_entitymanager_unit_of_work.md)
    * [4.2 DataBase (Doctrine)](4_upravlenie_dannimi_v_symfony_2/42_database_doctrine.md)
