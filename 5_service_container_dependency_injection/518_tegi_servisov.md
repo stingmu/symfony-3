@@ -8,7 +8,7 @@
 *   form.field_factory.guesser
 *   kernel.cache_warmer
 *   kernel.event_listener - использование сервиса в качестве слушателя.
-    \- { name: kernel.event_listener, event: xxx, method: onXxx }
+    - { name: kernel.event_listener, event: xxx, method: onXxx }
 *   monolog.logger
 *   routing.loader
 *   security.listener.factory
