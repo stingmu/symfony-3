@@ -16,6 +16,12 @@
 </div>
 ```
 
+Вставка контроллера в асинхронном режиме с использованием [hinclude.js](http://mnot.github.io/hinclude/):
+```
+{{ render_hinclude(controller('...')) }}
+{{ render_hinclude(url('...')) }}
+```
+
 ---
 
 Применение фильтров: `{{ title|upper }}`
