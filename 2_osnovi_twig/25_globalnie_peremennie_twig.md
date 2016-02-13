@@ -19,4 +19,4 @@
 
 Также можем получить параметры:
 
-```{{ app.request.attributes.get('_route_params') }}```
+`{{ app.request.attributes.get('_route_params') }}`
