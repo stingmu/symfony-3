@@ -1,6 +1,6 @@
 ## 5.10 Класс Configuration
 
-Для определения всех возможных конфигураций бандла используется класс Configuration, находящийся в файле /AcmeBundle/DependencyInjection/Configuration.php. Название класса на самом деле может быть любым, главное чтобы класс реализовывал интерфейс ConfigurationInterface.
+Для определения всех возможных конфигураций бандла используется класс **Configuration**, находящийся в файле **/AcmeBundle/DependencyInjection/Configuration.php**. Название класса на самом деле может быть любым, главное чтобы класс реализовывал интерфейс **ConfigurationInterface**.
 
 ```
 class Configuration implements ConfigurationInterface
