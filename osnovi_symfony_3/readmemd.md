@@ -1,2 +1,2 @@
-# Основы Symfony 3 {#1-osnova}
+# 1. Основы Symfony 3
 
