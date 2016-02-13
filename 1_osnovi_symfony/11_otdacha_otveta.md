@@ -19,6 +19,7 @@ class HelloController
 `return $this->render( 'AcmeHelloBundle:Hello:index.html.twig',array( 'name'=>$name) );`
 
 Метод **render()** создаёт объект **Response** с полученными параметрами, подключая шаблон.
-Для того, чтобы использовать метод **render()** контроллер должен наследовать базовый класс **Symfony\Bundle\FrameworkBundle\Controller\Controller**.
 
 Название шаблона: **BundleName:ControllerName:TemplateName**.
+
+Для того, чтобы использовать метод **render()** контроллер должен наследовать базовый класс **Symfony\Bundle\FrameworkBundle\Controller\Controller**.
