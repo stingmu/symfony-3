@@ -17,6 +17,7 @@
    * [2.4 Макросы TWIG](2_osnovi_twig/24_makrosi_twig.md)
    * [2.5 Глобальные переменные TWIG](2_osnovi_twig/25_globalnie_peremennie_twig.md)
    * [2.6 Добавление своих глобальных перменных](2_osnovi_twig/26_dobavlenie_svoih_globalnih_permennih.md)
+   * 2.7 Вставка CSS и JS
 * [3. Основные команды Symfony](3_osnovnie_komandi_symfony/readme.md)
 * [4. Doctrine в Symfony](4_doctrine_v_symfony/README.md)
    * [4.1 EntityManager (Unit Of Work)](4_doctrine_v_symfony/41_entitymanager_unit_of_work.md)
