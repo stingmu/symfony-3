@@ -2,7 +2,7 @@
 
 * [Основы Symfony 3 и не только](README.md)
 * [Основы Symfony 3](1_osnovi_symfony/readme.md)
-   * [Отдача ответа](osnovi_symfony_3/otdacha_otveta.md)
+   * [Отдача ответа](1_osnovi_symfony/otdacha_otveta.md)
    * [Структура директорий приложения](osnovi_symfony_3/struktura_direktorii_prilozheniya.md)
    * [Структура директорий бандла](osnovi_symfony_3/struktura_direktorii_bandla.md)
    * [1.4 Основные задачи контроллера](1_osnovi_symfony_2/14_osnovnie_zadachi_kontrollera.md)
