@@ -5,6 +5,7 @@
 article_show:
     path: /articles/{lang}/{year}/{title}.{_format}
     defaults: { _controller: AcmeBundle:Article:show, _format: html }
+    methods:  [GET]
     requirements:
         lang: en|fr|ru
         _format: html|rss
