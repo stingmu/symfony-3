@@ -5,7 +5,7 @@
    * [Отдача ответа](1_osnovi_symfony/otdachaotveta_md.md)
    * [Структура директорий приложения](1_osnovi_symfony/strukturadirektoriiprilozheniya__md.md)
    * [Структура директорий бандла](1_osnovi_symfony/strukturadirektoriibandla__md.md)
-   * [Основные задачи контроллера](1_osnovi_symfony/osnovnie_zadachi_kontrollera.md)
+   * [Основные задачи контроллера](1_osnovi_symfony/osnovniezadachi_kontrollera_md.md)
    * [1.5 Управление сессией](1_osnovi_symfony_2/15_upravlenie_sessiei.md)
    * [1.6 Маршрутизация](1_osnovi_symfony_2/16_marshrutizatsiya.md)
    * [1.7 Генерация URL](1_osnovi_symfony_2/17_generatsiya_url.md)
