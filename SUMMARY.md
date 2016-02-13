@@ -68,6 +68,7 @@
    * [7.6 Схема работы компонента HttpKernel](7_printsip_raboti_komponenta_httpkernel/76_shema_raboti_komponenta_httpkernel.md)
 * [8. Обработка исключений (Exceptions)](8_obrabotka_isklyuchenii_exception/readmemd.md)
 * [9. Подзапросы (sub-requests)](9_podzaprosi_sub-requests/README.md)
-   * [9.2 Где используются подзапросы](9_podzaprosi_sub-requests/92_gde_ispolzuyutsya_podzaprosi.md)
-   * [9.3 Выполнение подзапросов](9_podzaprosi_sub-requests/93_vipolnenie_podzaprosov.md)
+    * [9.1 Что такое подзапросы](9_podzaprosi_sub-requests/91_chto_takoe_podzaprosi.md) 
+    * [9.2 Где используются подзапросы](9_podzaprosi_sub-requests/92_gde_ispolzuyutsya_podzaprosi.md)
+    * [9.3 Выполнение подзапросов](9_podzaprosi_sub-requests/93_vipolnenie_podzaprosov.md)
 
