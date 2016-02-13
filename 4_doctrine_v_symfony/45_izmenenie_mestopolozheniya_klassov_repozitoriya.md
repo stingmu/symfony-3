@@ -35,8 +35,8 @@ class ProductRepository extends EntityRepository {
 
 Теперь данный метод доступен в контроллерах:
 
-```$products = $em->getRepository('AcmeStoreBundle:Product')->findAllOrderedByName();```
+`$products = $em->getRepository('AcmeStoreBundle:Product')->findAllOrderedByName();`
 
 Также в классах репозитория имеется связка с UnitOfWork.
 
-```$this->matching(Criteria ::create()->where());```
+`$this->matching(Criteria ::create()->where());`
