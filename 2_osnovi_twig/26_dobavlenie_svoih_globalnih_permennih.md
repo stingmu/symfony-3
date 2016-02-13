@@ -6,7 +6,8 @@
 twig:
     # ...
     globals:
-        test: "Some text"```
+        test: "Some text"
+```
 
 Теперь эта переменная будет доступна во всех шаблонов:
 
