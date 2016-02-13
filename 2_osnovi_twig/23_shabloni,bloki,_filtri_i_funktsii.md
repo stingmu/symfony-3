@@ -12,10 +12,7 @@
 
 ```
 <div>
-    {{ render(controller(
-        'AppBundle:Article:recentArticles',
-        { 'max': 3 }
-    )) }}
+    {{ render(controller('AppBundle:Article:recentArticles',{ 'max': 3 })) }}
 </div>
 ```
 
