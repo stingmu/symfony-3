@@ -4,13 +4,13 @@
 
 ```
 /**
-
 * @ORM\Entity(repositoryClass="Acme\StoreBundle\Entity\Repository\ProductRepository")
-
 */
+```
 
 Сам файл репозитория выглядит следующим образом:
 
+```
 // src/Acme/StoreBundle/Entity/Repository/ProductRepository.php
 
 namespace Acme\StoreBundle\Entity\Repository;
@@ -20,25 +20,16 @@ use Doctrine\ORM\EntityRepository;
 class ProductRepository extends EntityRepository {
 
     public function findOneProductById($id) {
-
         $query = $this->getEntityManager()->createQuery(
-
             'SELECT p FROM AcmeStoreBundle:Product p WHERE p.id = :id'
-
         )->setParameter('id',$id);
 
         try {
-
             return $query->getSingleResult();
-
         } catch(\Doctrine\ORM\NoResultExcetion $e) {
-
             return null;
-
         }
-
     }
-
 }
 ```
 
