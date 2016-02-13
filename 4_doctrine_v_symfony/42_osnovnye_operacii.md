@@ -12,7 +12,9 @@ $product = $em->getRepository('AcmeStoreBundle:Product')->find($id);
 ```
 $product = new Product();
 $product->setName('MyName');
+
 $em = $this->getDoctrine()->getManager();
+
 $em->persist($product);
 $em->flush();
 ```
