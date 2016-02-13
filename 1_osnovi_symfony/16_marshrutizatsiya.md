@@ -18,3 +18,15 @@ acme_hello:
     prefix: /admin
     resource: "@AcmeBundle/Resources/config/routing.yml"
 ```
+
+Также имеется возможность указывать маршруты в аннотациях к контроллерам:
+
+```
+/**
+ * @Route("/hello/{name}", name="hello")
+ */
+public function indexAction($name)
+{
+    return new Response('<html><body>Hello '.$name.'!</body></html>');
+}
+````
