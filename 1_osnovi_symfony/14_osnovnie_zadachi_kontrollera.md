@@ -2,7 +2,8 @@
 
 *   Redirect - перенаправление на другую страницу
 
-`return $this->redirect(%this->generateUrl('page'),301);`
+`return $this->redirect('http://symfony.com/doc');`
+`return $this->redirectToRoute('homepage', array(), 301);`
 
 *   Forward - внутреннее перенаправление без смены URL
 
