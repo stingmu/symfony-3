@@ -8,6 +8,17 @@
 
 Создание блока: `{% block title %} Добро пожаловать на мой сайт {% endblock %}`
 
+Вставка контроллера:
+
+```
+<div>
+    {{ render(controller(
+        'AppBundle:Article:recentArticles',
+        { 'max': 3 }
+    )) }}
+</div>
+```
+
 ---
 
 Применение фильтров: `{{ title|upper }}`
