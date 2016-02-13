@@ -9,21 +9,13 @@ assetic:
 
 ```
 {% stylesheets
-
     '@BloggerBlogBundle/Resources/public/css/style.css'
-    
     '@BloggerBlogBundle/Resources/public/css/blog.css'
-    
     debug=false
-    
     output='css/blogger.css'
-    
     filter='?yui_css'
-
 %}
-
     <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
-
 {% endstylesheets %}
 ```
 
