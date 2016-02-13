@@ -1,6 +1,6 @@
 ### 6.5 Таблица событий Symfony {#6-5-symfony}
 
-| Name | KernelEvents Constant | Argument passed to the listener |
+| **Name** | **KernelEvents Constant** | **Argument passed to the listener** |
 | --- | --- | --- |
 | kernel.request | KernelEvents::REQUEST | [GetResponseEvent](http://api.symfony.com/3.0/Symfony/Component/HttpKernel/Event/GetResponseEvent.html) |
 | kernel.controller | KernelEvents::CONTROLLER | [FilterControllerEvent](http://api.symfony.com/3.0/Symfony/Component/HttpKernel/Event/FilterControllerEvent.html) |
