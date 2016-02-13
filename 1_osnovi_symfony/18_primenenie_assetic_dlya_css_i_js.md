@@ -52,7 +52,7 @@ assetic:
 *   **Yui\JsCompressorFilter** - сжатие JavaScript с использованием YUI компрессора
 *   **CoffeeScriptFilter** - компиляция CoffeeScript для JavaScript
 
-Полный список фильтров Assetic -[https://github.com/kriswallsmith/assetic/blob/master/README.md](https://github.com/kriswallsmith/assetic/blob/master/README.md).
+Полный список фильтров Assetic - [https://github.com/kriswallsmith/assetic/blob/master/README.md](https://github.com/kriswallsmith/assetic/blob/master/README.md).
 
 ```
 {% javascripts
