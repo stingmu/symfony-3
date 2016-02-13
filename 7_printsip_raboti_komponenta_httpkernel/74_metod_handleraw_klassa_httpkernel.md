@@ -1,1 +1,1 @@
-### 7.4 Метод handleRaw() класса HttpKernel {#7-4-handleraw-httpkernel}
+## 7.4 Метод handleRaw() класса HttpKernel
