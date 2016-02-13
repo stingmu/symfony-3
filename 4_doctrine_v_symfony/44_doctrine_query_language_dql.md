@@ -1,4 +1,4 @@
-## 4.4 Doctrine Query Language (DQL) {#4-5-doctrine-query-language-dql}
+## 4.4 Doctrine Query Language (DQL)
 
 ```
 $query = $em->createQuery(
