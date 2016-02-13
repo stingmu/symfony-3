@@ -56,4 +56,4 @@ class MatthiasAccountExtension extends Extension
 }
 ```
 
-Метод **processConfiguration()** получает дерево конфигураций из объекта **Configuration** и обрабатывает полученные массивы.
+Метод **processConfiguration()** получает дерево конфигураций из объекта **Configuration** и проверяет и обрабатывает полученные массивы.
