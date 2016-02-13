@@ -19,3 +19,14 @@
 *   404error response - отдача 404 ошибки
 
 `throw $this->createNotFoundException('Not exist');`
+*   Получение POST/GET параметров из класса Request
+
+```
+use Symfony\Component\HttpFoundation\Request;
+
+public function indexAction(Request $request)
+{
+    $page = $request->query->get('page', 1);
+    // ...
+}
+```
