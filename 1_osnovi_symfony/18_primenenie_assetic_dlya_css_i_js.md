@@ -46,11 +46,11 @@ assetic:
 
 Фильтры в библиотеке ядра:
 
-*   CssMinFilter - минимизирование CSS
-*   JpegoptimFilter - оптимизация JPEG файлов
-*   Yui\CssCompressorFilter - сжатие CSS с использованием YUI компрессора
-*   Yui\JsCompressorFilter - сжатие JavaScript с использованием YUI компрессора
-*   CoffeeScriptFilter - компиляция CoffeeScript для JavaScript
+*   **CssMinFilter** - минимизирование CSS
+*   **JpegoptimFilter** - оптимизация JPEG файлов
+*   **Yui\CssCompressorFilter** - сжатие CSS с использованием YUI компрессора
+*   **Yui\JsCompressorFilter** - сжатие JavaScript с использованием YUI компрессора
+*   **CoffeeScriptFilter** - компиляция CoffeeScript для JavaScript
 
 Полный список фильтров Assetic -[ ](https://www.google.com/url?q=https://github.com/kriswallsmith/assetic/blob/master/README.md&sa=D&ust=1455315226729000&usg=AFQjCNFQwpAbvDNmG0LnI2nRGxRByJeqYw)[https://github.com/kriswallsmith/assetic/blob/master/README.md](https://www.google.com/url?q=https://github.com/kriswallsmith/assetic/blob/master/README.md&sa=D&ust=1455315226729000&usg=AFQjCNFQwpAbvDNmG0LnI2nRGxRByJeqYw).
 
