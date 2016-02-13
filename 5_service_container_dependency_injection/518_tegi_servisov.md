@@ -18,4 +18,4 @@
 *   translation.loader
 *   validator.constraint_validator
 
-Подробнее -[http://symfony.com/doc/current/reference/dic_tags.html]
+Подробнее - [http://symfony.com/doc/current/reference/dic_tags.html](http://symfony.com/doc/current/reference/dic_tags.html)
