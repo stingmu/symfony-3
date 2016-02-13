@@ -61,7 +61,9 @@ php app/console doctrine:generate:crud
 *   Соната админ:
 
 `sonata:admin:list sonata registred services`
+
 `sonata:admin:explain sonata explain some services`
+
 `sonata:admin:generate CoreDeliveryBundle:Service`
 
 *   Обновление библиотек в папке vendors согласно composer.json:
