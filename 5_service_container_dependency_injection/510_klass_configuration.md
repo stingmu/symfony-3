@@ -40,3 +40,4 @@ $rootNode
 ```
 
 Подробноее - [http://symfony.com/doc/current/components/config/definition.html](http://symfony.com/doc/current/components/config/definition.html)
+
