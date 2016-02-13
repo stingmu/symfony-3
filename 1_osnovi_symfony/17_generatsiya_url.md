@@ -1,6 +1,6 @@
 ## 1.7 Генерация URL
 
-*   в контроллере
+* в контроллере
 
 `$url = $this->generateUrl( 'blog_show', array('slug'=>'my-bkig-post') );`
 
@@ -9,10 +9,12 @@
 `$url = $thi->get('router')->match('/blog/my-blog-post');`
 `$url = $thi->get('router')->generate('blog_show',['name'=>$name]);`
 
-*   в js файлах
+* в js файлах
 
 `var url = Routing.generate( 'blog_show',{"slug":'my-blog-post'} );`
 
-*   в шаблонах TWIG
+Для этого необходим бандл - **FOSJsRoutingBundle**.
+
+* в шаблонах TWIG
 
 `<a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}">Read post</a>`
