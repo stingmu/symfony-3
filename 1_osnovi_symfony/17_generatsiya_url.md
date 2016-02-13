@@ -18,3 +18,5 @@
 * в шаблонах TWIG
 
 `<a href="{{ path( 'blog_show',{'slug':'my-blog-post'} ) }}">Read post</a>`
+или абсолютный путь:
+`<a href="{{ url('blog_show', {'slug': 'my-blog-post'}) }}">Read post.</a>`
