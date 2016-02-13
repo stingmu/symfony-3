@@ -8,7 +8,7 @@ article_show:
     requirements:
         lang: en|fr|ru
         _format: html|rss
-        yeaыr: \d+
+        year: \d+
 ```
 
 Подключение внешнего файла роутинг с добавлением префикса:
